@@ -31,3 +31,23 @@ nav a:hover {
     cursor: pointer;
 
 }
+
+.hero-banner {
+    
+    background-image: url("../images/pollock.png");
+    background-color: rgb(53, 49, 49);
+    background-size: cover;
+    background-position: center;
+    min-height: 70px;
+    font-weight: bolder;
+    
+}
+
+.hero-banner h2 {
+
+    background-color: rgb(53, 49, 49);
+    color: rgb(199, 6, 199);
+    text-align: center;
+    
+
+}
