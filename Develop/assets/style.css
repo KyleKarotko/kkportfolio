@@ -34,12 +34,14 @@ nav a:hover {
 
 .hero-banner {
     
-    background-image: url("../images/pollock.png");
+    background-image: url("../images/purpgrnsprl.jpg");
+    background-size: cover;
+    min-height: 200px;
     background-color: rgb(53, 49, 49);
     background-size: cover;
     background-position: center;
-    min-height: 70px;
     font-weight: bolder;
+    align-items: right;
     
 }
 
@@ -48,6 +50,7 @@ nav a:hover {
     background-color: rgb(53, 49, 49);
     color: rgb(199, 6, 199);
     text-align: center;
+    
     
 
 }
