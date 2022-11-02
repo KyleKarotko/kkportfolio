@@ -68,3 +68,45 @@ nav a:hover {
     font-size: 30px;
     line-height: 1.1;
   }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .flex-item {
+    border: 5px solid rgb(98, 0, 98);
+    min-height: 300px;
+    min-width: 300px;
+    flex-direction: row;
+    display: flex;
+    align-items: flex-end;
+    background-blend-mode: soft-light;
+    background-size: cover;
+    justify-content: space-between;
+    
+    
+  }
+
+
+
+
+  .html-css {
+    background-image: url("../images/CSS.jpg");
+  }
+  
+  .js {
+    background-image: url("../images/js.jpg");
+  }
+  
+  .mern {
+    background-image: url("../images/mern.jpg");
+  }
+  
+  .node {
+    background-image: url("../images/node.jpg");
+  }
+  
+  
+  
