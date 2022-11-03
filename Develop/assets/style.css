@@ -7,9 +7,6 @@ header {
     padding: 1% 1%;
 }
 
-header img {
-    align-items: flex-start;
-}
 
 header h1 {
     color: rgb(98, 0, 98);
@@ -104,6 +101,11 @@ nav a:hover {
 
   }
 
+  .flex-item:hover {
+    box-shadow:rgb(240, 235, 235);
+  }
+ 
+
   #contact address {
     display: flex;
     align-items: center;
@@ -130,7 +132,7 @@ nav a:hover {
   .html-css {
     background-image: url("../images/CSS.jpg");
   }
-  
+ 
   .js {
     background-image: url("../images/js.jpg");
   }
