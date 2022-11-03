@@ -42,8 +42,8 @@ nav a:hover {
     font-weight: bolder;
     display: flex;
     align-items: flex-end;
-    
-  
+
+
 }
 
 .hero-banner h2 {
@@ -51,10 +51,10 @@ nav a:hover {
     text-align: center;
     font-size: 35px;
     background-color: black;
-    
+
 }
 
-.myinfo {
+  .myinfo {
     margin: 25px 0;
     padding: 10px 0;
     
@@ -73,43 +73,70 @@ nav a:hover {
   .myinfo h3{
     background-color: rgb(124, 122, 122);
     font-size: 30px;
-  }
+  } 
 
-  .flex-container {
+.flex-container {
+    padding: 20px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
-  }
+    justify-content: center;
+    align-items: center;
+}
 
-  .flex-item {
+.flex-item:hover {
+    opacity: 80%;
+}
+
+
+.flex-item {
     margin: 10px;
     border: 5px solid rgb(98, 0, 98);
+    border-radius: 5px;
     min-height: 200px;
-    min-width: 300px;
+    min-width: 400px;
     flex-direction: row;
     display: flex;
     align-items: flex-end;
     background-color: rgb(124, 122, 122);
     background-size: cover;
     justify-content: space-between;
-  }
 
+}
 
-  .flex-item:first-child {
-    min-height: 400px;
+.flex-item:first-child {
+    min-height: 300px;
     min-width: 500px;
 
-  }
+}
 
-  #contact address {
+
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+
+#contact h2 {
+    width: 25%;
+    margin: 0;
+    padding: 0
+}
+
+#contact address {
+    margin: 0;
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    width: 75%;
+}
 
-  }
+
 
   #contact address a {
-    margin: 15px;
     display: flex;
     align-items: center;
     color: rgb(98, 0, 98);
@@ -120,25 +147,123 @@ nav a:hover {
     background-color: black;
     font-size: 200%;
     cursor: pointer;
-  }
+  } 
 
 
 /* portfolio project images */
-  .html-css {
+.html-css {
     background-image: url("../images/CSS.jpg");
-  }
- 
-  .js {
+    width: 70%
+}
+
+.js {
     background-image: url("../images/js.jpg");
-  }
-  
-  .mern {
+}
+
+.mern {
     background-image: url("../images/mern.jpg");
-  }
-  
-  .node {
+}
+
+.node {
     background-image: url("../images/node.jpg");
-  }
-  
+}
+
 /* end portfolio project images */
-  
+
+@media screen and (max-width: 900px) {
+    
+    #about {
+        flex-direction: column;
+    }
+    
+    #work {
+        flex-direction: column;
+    }
+
+    #work h2 {
+        width: 100%;
+        text-align: center;
+        height: 10%;
+    
+    }
+    
+    
+    #contact {
+        flex-direction: column;
+        
+
+    }
+
+    #contact h2 {
+        padding: 10px;
+        width: 100%;
+        /* text-align: center; */
+        height: 10%;
+    }
+
+    #contact address {
+        height: 70%
+    }
+
+}
+
+
+@media screen and (max-width: 550px) {
+
+    header {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1% 1%;
+    }
+
+    nav {
+        
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1% 1%;
+        }
+        .flex-item:first-child {
+          margin: 0 20% 0 0;
+            
+        }
+    
+    
+    #about {
+        flex-direction: column;
+    }
+    
+    #work {
+        flex-direction: column;
+    }
+
+    #work h2 {
+        width: 100%;
+        text-align: center;
+        height: 10%;
+    
+    }
+    
+    
+    #contact {
+        flex-direction: column;
+        
+
+    }
+
+    #contact h2 {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        height: 10%;
+    }
+
+    #contact address {
+        height: 70%
+    }
+
+}
