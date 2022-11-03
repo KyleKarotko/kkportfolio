@@ -3,12 +3,17 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(68, 66, 66);
+    background-color: rgb(124, 122, 122);
     padding: 1% 1%;
 }
+
+header img {
+    align-items: flex-start;
+}
+
 header h1 {
     color: rgb(98, 0, 98);
-    background-color: rgb(68, 66, 66);
+    background-color: rgb(124, 122, 122);
 }
 
 nav {
@@ -60,10 +65,17 @@ nav a:hover {
   }
   .myinfo h2 {
     flex: 0 0 20%;
+    padding: 0, 5px, 10px, 0;
+    border-right: 5px solid rgb(98, 0, 98);
     border-bottom: 5px solid rgb(98, 0, 98);
-    text-align: center;
     font-size: 30px;
     line-height: 1.1;
+    display: inline;
+  }
+
+  .myinfo h3{
+    background-color: rgb(124, 122, 122);
+    font-size: 30px;
   }
 
   .flex-container {
@@ -80,9 +92,12 @@ nav a:hover {
     flex-direction: row;
     display: flex;
     align-items: flex-end;
+    background-color: rgb(124, 122, 122);
     background-size: cover;
     justify-content: space-between;
   }
+
+
   .flex-item:first-child {
     min-height: 400px;
     min-width: 500px;
@@ -97,6 +112,7 @@ nav a:hover {
   }
 
   #contact address a {
+    margin: 15px;
     display: flex;
     align-items: center;
     color: rgb(98, 0, 98);
