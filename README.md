@@ -12,5 +12,6 @@ This shows the end users view of my portfolilo
 # Links
 The following links are to both the end project and the github repo used to build it
 ## End project
-
+https://kylekarotko.github.io/kkportfolio/
 ## Github Repo
+https://github.com/KyleKarotko/kkportfolio
